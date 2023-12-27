@@ -8,7 +8,7 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar.png")
   } else {
     // set tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
@@ -17,7 +17,7 @@ function toggleMode() {
 if (html.classList.contains("light")) {
   img.setAttribute(
     "alt",
-    "Foto de Leandro Tetsuo, sorrindo, usando boné, de barba e céu azul de fundo."
+    "Foto de Leandro Tetsuo, sério, usando camisa verde, barba, topete e natureza com céu azul de fundo."
   )
 } else {
   img.setAttribute(
